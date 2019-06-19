@@ -8,8 +8,8 @@ jobs:
       - run: echo "A first hello"
 
       - run:
-        name: spotless check
-        command: ./gradlew spotlessCheck
+          name: spotless check
+          command: ./gradlew spotlessCheck
 
       - run:
           name: Run Tests
