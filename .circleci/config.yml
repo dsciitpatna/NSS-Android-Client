@@ -1,8 +1,20 @@
- version: 2
- jobs:
-   build:
-     docker:
-       - image: circleci/android:api-27-alpha
-     steps:
-       - checkout
-       - run: echo "A first hello"
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/android:api-27-alpha
+    steps:
+      - checkout
+      - run: echo "A first hello"
+        -
+      - run:
+        name: spotless check
+        command: ./gradlew spotlessCheck
+
+      - run:
+          name: Run Tests
+          command: ./gradlew build
+
+      - run:
+          name: spotless apply
+          command: ./gradlew spotlessApply
