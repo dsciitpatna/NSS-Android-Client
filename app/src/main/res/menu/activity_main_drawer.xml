@@ -6,32 +6,66 @@
     <group android:checkableBehavior="single">
         <item
                 android:id="@+id/nav_home"
-                android:icon="@drawable/ic_menu_camera"
+                android:icon="@drawable/ic_home_black_24dp"
                 android:title="@string/menu_home"/>
         <item
                 android:id="@+id/nav_gallery"
                 android:icon="@drawable/ic_menu_gallery"
                 android:title="@string/menu_gallery"/>
         <item
-                android:id="@+id/nav_slideshow"
+                android:id="@+id/nav_videos"
                 android:icon="@drawable/ic_menu_slideshow"
-                android:title="@string/menu_slideshow"/>
+                android:title="@string/menu_videos"/>
         <item
-                android:id="@+id/nav_tools"
-                android:icon="@drawable/ic_menu_manage"
-                android:title="@string/menu_tools"/>
+                android:id="@+id/nav_events"
+                android:icon="@drawable/ic_event_black_24dp"
+                android:title="@string/menu_events"/>
+        <item
+                android:id="@+id/nav_prayatna"
+                android:title="@string/menu_prayatna"/>
+        <item
+                android:id="@+id/nav_think_thank"
+                android:title="@string/menu_think_thank"/>
+
+        <item
+                android:id="@+id/nav_check_hours"
+                android:title="@string/menu_check_hours"/>
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/cells">
         <menu>
             <item
-                    android:id="@+id/nav_share"
-                    android:icon="@drawable/ic_menu_share"
-                    android:title="@string/menu_share"/>
+                    android:id="@+id/nav_technical_skills"
+                    android:title="@string/menu_technical_skills"/>
             <item
-                    android:id="@+id/nav_send"
-                    android:icon="@drawable/ic_menu_send"
-                    android:title="@string/menu_send"/>
+                    android:id="@+id/nav_rural_development"
+                    android:title="@string/menu_rural_development"/>
+            <item
+                    android:id="@+id/nav_chetna"
+                    android:title="@string/menu_chetna"/>
+            <item
+                    android:id="@+id/nav_teaching"
+                    android:title="@string/menu_teaching"/>
+            <item
+                    android:id="@+id/nav_environmental"
+                    android:title="@string/environmental"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/get_involved">
+        <menu>
+            <item
+                    android:id="@+id/nav_about_us"
+                    android:title="@string/menu_about_us"/>
+            <item
+                    android:id="@+id/nav_nss_team"
+                    android:title="@string/menu_nss_team"/>
+            <item
+                    android:id="@+id/nav_faqs"
+                    android:title="@string/menu_faqs"/>
+            <item
+                    android:id="@+id/nav_rules_policies"
+                    android:title="@string/menu_rules_policies"/>
         </menu>
     </item>
 

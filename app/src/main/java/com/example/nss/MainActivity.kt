@@ -71,18 +71,49 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_gallery -> {
 
             }
-            R.id.nav_slideshow -> {
+            R.id.nav_videos -> {
 
             }
-            R.id.nav_tools -> {
+            R.id.nav_events -> {
 
             }
-            R.id.nav_share -> {
+            R.id.nav_prayatna -> {
 
             }
-            R.id.nav_send -> {
+            R.id.nav_think_thank -> {
 
             }
+            R.id.nav_check_hours -> {
+
+            }
+            R.id.nav_technical_skills -> {
+
+            }
+            R.id.nav_rural_development -> {
+
+            }
+            R.id.nav_chetna -> {
+
+            }
+            R.id.nav_teaching -> {
+
+            }
+            R.id.nav_environmental -> {
+
+            }
+            R.id.nav_about_us -> {
+
+            }
+            R.id.nav_nss_team -> {
+
+            }
+            R.id.nav_faqs -> {
+
+            }
+            R.id.nav_rules_policies -> {
+
+            }
+
         }
         val drawerLayout: androidx.drawerlayout.widget.DrawerLayout = findViewById(R.id.drawer_layout)
         drawerLayout.closeDrawer(GravityCompat.START)
