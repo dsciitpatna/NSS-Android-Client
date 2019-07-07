@@ -31,9 +31,6 @@
             android:id="@+id/nav_cells"
             android:title="@string/cells" />
         <item
-            android:id="@+id/nav_prayatna"
-            android:title="@string/menu_prayatna" />
-        <item
             android:id="@+id/nav_think_thank"
             android:title="@string/menu_think_thank" />
         <item

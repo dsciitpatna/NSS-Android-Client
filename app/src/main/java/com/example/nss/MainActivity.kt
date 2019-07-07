@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_events -> {
 
             }
-            R.id.nav_prayatna -> {
+            R.id.nav_cells -> {
 
             }
             R.id.nav_think_thank -> {
