@@ -9,8 +9,15 @@
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_videos">Videos</string>
+    <string name="menu_events">Events</string>
+    <string name="menu_faqs">FAQ</string>
+    <string name="menu_rules_policies">Rules and Policies</string>
+    <string name="get_involved">Get Involved</string>
+    <string name="menu_nss_team">NSS Team</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_think_thank">Think-Thank</string>
+    <string name="menu_check_hours">Check-Hours</string>
+    <string name="cells">Cells</string>
+
 </resources>

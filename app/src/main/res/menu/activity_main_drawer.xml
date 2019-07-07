@@ -1,38 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:tools="http://schemas.android.com/tools"
-      tools:showIn="navigation_view">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group
+        android:id="@+id/nav_menu_top"
+        android:checkableBehavior="single">
         <item
-                android:id="@+id/nav_home"
-                android:icon="@drawable/ic_menu_camera"
-                android:title="@string/menu_home"/>
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
         <item
-                android:id="@+id/nav_gallery"
-                android:icon="@drawable/ic_menu_gallery"
-                android:title="@string/menu_gallery"/>
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
         <item
-                android:id="@+id/nav_slideshow"
-                android:icon="@drawable/ic_menu_slideshow"
-                android:title="@string/menu_slideshow"/>
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_videos" />
         <item
-                android:id="@+id/nav_tools"
-                android:icon="@drawable/ic_menu_manage"
-                android:title="@string/menu_tools"/>
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="@string/menu_events" />
     </group>
 
-    <item android:title="Communicate">
+    <group
+        android:id="@+id/nav_menu_middle"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cells"
+            android:title="@string/cells" />
+        <item
+            android:id="@+id/nav_think_thank"
+            android:title="@string/menu_think_thank" />
+        <item
+            android:id="@+id/nav_check_hours"
+            android:title="@string/menu_check_hours" />
+    </group>
+
+    <item android:title="@string/get_involved">
         <menu>
             <item
-                    android:id="@+id/nav_share"
-                    android:icon="@drawable/ic_menu_share"
-                    android:title="@string/menu_share"/>
+                android:id="@+id/nav_about_us"
+                android:title="@string/menu_about_us" />
             <item
-                    android:id="@+id/nav_send"
-                    android:icon="@drawable/ic_menu_send"
-                    android:title="@string/menu_send"/>
+                android:id="@+id/nav_nss_team"
+                android:title="@string/menu_nss_team" />
+            <item
+                android:id="@+id/nav_faqs"
+                android:title="@string/menu_faqs" />
+            <item
+                android:id="@+id/nav_rules_policies"
+                android:title="@string/menu_rules_policies" />
         </menu>
     </item>
-
 </menu>
