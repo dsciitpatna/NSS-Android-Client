@@ -9,8 +9,21 @@
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_videos">Videos</string>
+    <string name="menu_events">Events</string>
+    <string name="menu_faqs">FAQ</string>
+    <string name="menu_rules_policies">Rules-Policies</string>
+    <string name="get_involved">Get Involved</string>
+    <string name="menu_nss_team">NSS Team</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_prayatna">Prayatna</string>
+    <string name="menu_think_thank">Think-Thank</string>
+    <string name="menu_check_hours">Check-Hours</string>
+    <string name="cells">Cells</string>
+    <string name="menu_technical_skills">Technical Skills</string>
+    <string name="menu_rural_development">Rural Development</string>
+    <string name="menu_chetna">Chetna</string>
+    <string name="menu_teaching">Teaching</string>
+    <string name="environmental">Environmental</string>
+
 </resources>
